@@ -1,4 +1,4 @@
-# Böxle Backend
+# Böxle Push-Service
 
 ![Status](https://img.shields.io/badge/status-production-brightgreen)
 ![License](https://img.shields.io/badge/license-view--only-blue)
