@@ -1,0 +1,30 @@
+[Unit]
+Description=Böxle - SprachBox Push Backend
+After=network.target
+
+[Service]
+Type=simple
+User=boexle
+Group=boexle
+WorkingDirectory=/opt/boexle-backend
+ExecStart=/usr/bin/node dist/index.js
+KillMode=control-group
+TimeoutStopSec=5
+Restart=on-failure
+RestartSec=15
+StandardOutput=journal
+StandardError=journal
+Environment=NODE_ENV=production
+# Reverse-Proxy setzt X-Forwarded-For — nötig für korrektes Rate-Limiting (express-rate-limit)
+Environment=TRUST_PROXY=1
+
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectSystem=strict
+ProtectHome=yes
+ReadWritePaths=/opt/boexle-backend
+# Neu erstellte Dateien (z. B. boexle.db, WAL/SHM) sind nur für den Service-User lesbar.
+UMask=0077
+
+[Install]
+WantedBy=multi-user.target
