@@ -12,7 +12,7 @@ If you believe you have found a security issue in this code or in the
 production service, **please do not open a public GitHub issue**. Instead,
 report it privately:
 
-- Email: **security@boexle.de**
+- Email: **security@boexle.app**
 - Subject line: `Security: <short description>`
 
 Please include:
