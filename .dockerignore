@@ -1,0 +1,9 @@
+node_modules
+dist
+.env
+.git
+*.db
+certs
+*.p8
+*.pem
+npm-debug.log*

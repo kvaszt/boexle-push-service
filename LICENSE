@@ -1,0 +1,28 @@
+Böxle Push Service — Source Available for Inspection Only
+Copyright (c) 2026 Moritz Quast
+
+All rights reserved.
+
+This source code is published solely for the purpose of public transparency,
+so that users of the Böxle iOS application can inspect how the backend service
+handles their data.
+
+You are explicitly NOT granted any of the following rights:
+
+  1. The right to use this software, in source or compiled form, for any
+     purpose other than reading and reviewing it.
+  2. The right to copy, modify, merge, publish, sublicense, or distribute
+     this software or any portion of it.
+  3. The right to run a service based on this code, in whole or in part,
+     whether privately, commercially, or for any other purpose.
+  4. The right to create derivative works.
+
+Any other use requires prior written permission from the copyright holder.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
